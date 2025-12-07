@@ -19,14 +19,24 @@ Asegúrate de tener Python 3 instalado. Las siguientes bibliotecas son necesaria
 
 ## Instalación
 
-1.  **Clona o descarga el repositorio.**
+1. **Clona el repositorio:**
 
-2.  **Crea un entorno virtual (recomendado):**
+   ```bash
+   git clone https://github.com/erigdip/Metodo-biseccion.git
+   ```
+
+2.  **Accede al directorio del proyecto:**
+
+    ```bash
+    cd Metodo-biseccion
+    ```
+
+3.  **Crea un entorno virtual (recomendado):**
     ```bash
     python -m venv venv
     ```
 
-3.  **Activa el entorno virtual:**
+4.  **Activa el entorno virtual:**
     - En Windows:
       ```bash
       .\venv\Scripts\activate
@@ -36,7 +46,7 @@ Asegúrate de tener Python 3 instalado. Las siguientes bibliotecas son necesaria
       source venv/bin/activate
       ```
 
-4.  **Instala las dependencias:**
+5.  **Instala las dependencias:**
     ```bash
     pip install -r requirements.txt
     ```
