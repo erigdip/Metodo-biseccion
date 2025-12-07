@@ -23,22 +23,22 @@ Asegúrate de tener Python 3 instalado. Las siguientes bibliotecas son necesaria
 
 2.  **Crea un entorno virtual (recomendado):**
     ```bash
-    python -m venv entorno
+    python -m venv venv
     ```
 
 3.  **Activa el entorno virtual:**
     - En Windows:
       ```bash
-      .\entorno\Scripts\activate
+      .\venv\Scripts\activate
       ```
     - En macOS/Linux:
       ```bash
-      source entorno/bin/activate
+      source venv/bin/activate
       ```
 
 4.  **Instala las dependencias:**
     ```bash
-    pip install numpy matplotlib
+    pip install -r requirements.txt
     ```
 
 ## ¿Cómo usarlo?
